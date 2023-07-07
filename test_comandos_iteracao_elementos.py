@@ -25,6 +25,6 @@ assert product_title.text == 'Products'
 
 # get_attribute
 
-img_backpack = browser.find_element(By.XPATH, '(//img[@class = "inventory_item_img"])[1]')
+img_backpack = browser.find_element(By.XPATH, '(//img[@class = "inventory_item_img"])[1)')
 print(img_backpack.get_attribute('src'))
 assert img_backpack.get_attribute("src") == "Sauce Labs Backpack"
