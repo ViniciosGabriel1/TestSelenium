@@ -6,7 +6,7 @@
 numero_recebido = 1
 numero_atual = 2
 
-assert numero_recebido != numero_atual, "error"
+assert numero_recebido > numero_atual, "error"
 
 
 #assert text
